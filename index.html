@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS Lab2</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Open Sans");
+    </style>
   </head>
   <body>
     <header>
       <h1>chirpus inc.</h1>
       <nav>
-        <ul>
-          <li>
-            <a href="#">Work</a>
-          </li>
+        <ul class="graytext">
+          <li><a href="#">Work</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#">Hire Us</a></li>
         </ul>
+        <div class="blackboxes">Hire Us</div>
       </nav>
     </header>
     <main>
@@ -34,14 +35,15 @@
             enim, rerum possimus facilis velit vitae aspernatur? Deserunt ipsa
             nobis ad error assumenda dolore?
           </p>
-          <a href="#">Call To Action</a>
         </div>
-        <div></div>
+        <div>
+          <a href="#" class="blackboxes">Call To Action</a>
+        </div>
       </section>
     </main>
     <footer>
-      <p>chirpus inc.</p>
-      <nav>
+      <p class="footerlogo">chirpus inc.</p>
+      <nav class="footerjunk">
         <ul>
           <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 2</a></li>
