@@ -2,13 +2,13 @@ body {
   background-color: #f9fafc;
   font-family: "Open Sans";
   margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 p {
   margin: 0;
 }
 main {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 h1 {
   font-size: 24px;
@@ -19,7 +19,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
 }
-a {
+.a-homepage {
   text-decoration: none;
   color: #69696a;
 }
@@ -34,16 +34,15 @@ li {
   margin-left: 0px;
   padding-left: 0px;
 }
-.blackboxes {
+.accentbox {
   display: flex;
   background-color: #000;
   color: #fff;
   align-items: center;
   justify-content: center;
-  height: 32px;
   border-radius: 20px;
   margin: 8px;
-  padding: 4px;
+  padding: 12px;
 }
 h2 {
   font-size: 32px;
@@ -70,7 +69,7 @@ footer {
 .footerlogo {
   font-weight: bold;
 }
-footer ul li {
+.bottomlinks {
   display: inline-block;
   padding: 6px;
 }
