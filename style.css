@@ -2,37 +2,20 @@ body {
   background-color: #f9fafc;
   font-family: "Open Sans";
   margin: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-p {
-  margin: 0;
-}
-main {
+  padding: 20px;
 }
 h1 {
   font-size: 24px;
   margin: 0px;
-}
-header {
-  padding-top: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .a-homepage {
   text-decoration: none;
   color: #69696a;
 }
 ul {
+  list-style: none;
   padding: 0px;
   margin: 0px;
-}
-li {
-  list-style-type: none;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: 0px;
-  padding-left: 0px;
 }
 .accentbox {
   display: flex;
@@ -41,7 +24,6 @@ li {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  margin: 8px;
   padding: 12px;
 }
 h2 {
@@ -59,21 +41,20 @@ footer {
   display: flex;
   position: fixed;
   bottom: 0px;
+  left: 0px;
   background-color: rgba(247, 193, 162, 0.7);
   width: 100%;
-  height: 42px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
-  align-items: center;
 }
 .footerlogo {
   font-weight: bold;
+  margin: 0px;
 }
 .bottomlinks {
-  display: inline-block;
+  display: flex;
   padding: 6px;
-}
-footer nav {
-  position: absolute;
-  right: 60px;
 }
